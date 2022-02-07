@@ -7,9 +7,7 @@ This portfolio is a work in process as it will be updated as UWA Bootcamp goes o
 
 ## This is how it looks
 
-    ```md
-    ![alt text](images/PortafolioFoto.png)
-    ```
+![PortafolioFoto](https://user-images.githubusercontent.com/94599271/152759543-6a71ce83-343d-4ff7-aba8-1ce781e0e5fb.png)
 
 
 ## This is where you find it
