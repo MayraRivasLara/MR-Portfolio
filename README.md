@@ -1,4 +1,4 @@
-# MRivasPortfolio
+# MR-Portfolio
 ## Description
 
 This portfolio was created with the goal to reach out to people make connections and to use a visual and interactive tool to get noticed by others with the similar interests and also future employers/clients.
