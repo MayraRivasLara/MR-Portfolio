@@ -1,9 +1,17 @@
 # MRivasPortfolio
+## Description
 
-MRPortfolio is my very first professional Portfolio.
+This portfolio was created with the goal to reach people and tell them about my learning process at the Bootcamp and the skills I am developing. This is a visual and interactive tool that will help me to get noticed by others with the similar interests and future employers/clients.
 
-A portfolio as well as a CV, tells others about your skills, your education and strengths, but a difference of a CV, a Portfolio will utilize visual images and it can be more interactive and detailed than a CV on paper or an email. 
+This portfolio is a work in process as it will be updated as UWA Bootcamp goes on and the I build more skills becoming a full-stack Web Developer. 
 
-A portfolio is a great way of growing your online presence with the primary goal of getting noticed by potential employers or clients. In this portfolio, I have included information about the work that done so far in the UWA Boot Camp. 
+## This is how it looks
 
-More information will be added as the Boot Camp goes on and we learn more about Coding and Web Development. 
+    ```md
+    ![alt text](images/PortafolioFoto.png)
+    ```
+
+
+## This is where you find it
+
+
