@@ -1,3 +1,4 @@
+/* all document */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -10,7 +11,7 @@
 body {
     background-color:rgb(96, 238, 224);
 }
- 
+ /* side bar */
 header nav ul {
   height: 100%;  
   width: 200px;
@@ -39,12 +40,13 @@ nav a:hover{
     color: blanchedalmond;
 }
 
+/* central photo */
 .hero-image {
     width: 35%;
     position: relative;
     margin-left: 665px;
 }
-  
+/* name on the photo */
 .hero-text {
     text-align: center;
     position: absolute;
@@ -64,7 +66,7 @@ nav a:hover{
     margin-left: 200px;
     padding: 5px 5px 5px 5px;
 }
-
+/* about me - information */
 #about-me {
     padding-left: 2pt;
     color: rgb(228, 139, 38);
@@ -73,16 +75,15 @@ nav a:hover{
     font-size: 27px;
     margin-top: 5px;
 }
- 
+ /* parragraphs */
 .About-Me p {
     text-indent: 25px;
     text-align: justify;
     height: 60px;
-    /* width:auto; */
     margin-left: 200px;
     margin-right: 200px;
 }
-
+/* work section */
 #Work {
     color: rgb(228, 139, 38);
     font-weight: bolder;
@@ -162,7 +163,7 @@ section ul {
 #comet-img {
     margin: 5px 5px 5px 5px;
 }
-
+/* footer section */
 #contact-me {
     color: rgb(228, 139, 38);
     font-weight: bolder;
