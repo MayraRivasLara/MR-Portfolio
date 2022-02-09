@@ -12,5 +12,5 @@ This portfolio is a work in process. It will be updated as the UWA Bootcamp goes
 
 ## This is where you find it
 
-https://mayrarivaslara.github.io/MR-Portfolio/index.html
+https://mayrarivaslara.github.io/MR-Portfolio/
 
