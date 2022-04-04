@@ -1,6 +1,6 @@
 /* all document */
 *{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     padding: 0;
     margin-right: 15px;
     margin-left: 15px;
@@ -15,7 +15,7 @@ body {
 header nav ul {
   height: 100%;  
   width: 200px;
-  flex-direction: column;
+  /* flex-direction: column; */
   line-height: 200px;
   position:fixed;
   top: 0;
@@ -75,7 +75,7 @@ nav a:hover{
     font-size: 27px;
     margin-top: 5px;
 }
- /* parragraphs */
+ /* paragraphs */
 .About-Me p {
     text-indent: 25px;
     text-align: justify;
@@ -84,7 +84,7 @@ nav a:hover{
     margin-right: 200px;
 }
 /* work section */
-#Work {
+/* #Work {
     color: rgb(228, 139, 38);
     font-weight: bolder;
     text-align: center;
@@ -131,8 +131,8 @@ section ul {
 }
 
 #wds-img {
-    margin: 5px 5px 5px 5px;
-}
+    margin: 5px 5px 5px 5px; */
+/* } */
 
 /* #portfolio {
     
@@ -146,7 +146,7 @@ section ul {
 
 */
 
-#comet-watch {
+/* #comet-watch {
     color: black;
     text-decoration: none;
     text-align: left;
@@ -162,7 +162,7 @@ section ul {
 
 #comet-img {
     margin: 5px 5px 5px 5px;
-}
+} */
 /* footer section */
 #contact-me {
     color: rgb(228, 139, 38);
