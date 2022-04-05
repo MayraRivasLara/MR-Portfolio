@@ -57,7 +57,7 @@ nav a:hover{
     font-style:unset;
 }
 
-#Welcome {
+#top {
     height: 500px;
     font-size: 40px;
 }
@@ -67,7 +67,7 @@ nav a:hover{
     padding: 5px 5px 5px 5px;
 }
 /* about me - information */
-#about-me {
+/* #about-me {
     padding-left: 2pt;
     color: rgb(228, 139, 38);
     text-align: center;
@@ -76,13 +76,13 @@ nav a:hover{
     margin-top: 5px;
 }
  /* paragraphs */
-.About-Me p {
+/* .About-Me p {
     text-indent: 25px;
     text-align: justify;
     height: 60px;
     margin-left: 200px;
     margin-right: 200px;
-}
+} */ */
 /* work section */
 /* #Work {
     color: rgb(228, 139, 38);
@@ -162,7 +162,8 @@ section ul {
 
 #comet-img {
     margin: 5px 5px 5px 5px;
-} */
+} 
+
 /* footer section */
 #contact-me {
     color: rgb(228, 139, 38);
@@ -187,6 +188,7 @@ section ul {
     margin-top: 50px;
     margin-bottom: 100px;
 }
+
 footer a:hover{
     color: blanchedalmond;
 }
