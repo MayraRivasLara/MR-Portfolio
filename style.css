@@ -1,21 +1,21 @@
 /* all document */
 *{
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     padding: 0;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
     font-family: 'Exo 2', sans-serif;
-    font-size: 20px;
-}
+    font-size: 20px; 
+} 
 
 body {
-    background-color:rgb(96, 238, 224);
+    background-color:rgb(133, 238, 228);
 }
  /* side bar */
 header nav ul {
   height: 100%;  
   width: 200px;
-  /* flex-direction: column; */
+  flex-direction: column;
   line-height: 200px;
   position:fixed;
   top: 0;
