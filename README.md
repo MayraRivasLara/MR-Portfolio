@@ -38,7 +38,7 @@ These are the packages and technologies that were utilized to create this projec
 
 This is where you find it!
 
-https://mayrarivaslara.github.io/MR-Portfolio/
+https://mayrarivaslara.github.io/MR-Portfolio/index.html
 
 ## Questions
 
