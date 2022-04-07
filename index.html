@@ -9,143 +9,137 @@
     <title>Mayra Rivas' Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Nova+Square&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 </head>
 
-<body>
+<body class="p-3 mb-2 bg-secondary text-light">
     <header>
 <!-- Side bar menu -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#Welcome">Home</a>
-                </li>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand"><img src="/Images/logo3.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+    aria-expanded="false" aria-label="Toggle navigation">
+    </button>
+    <div class="collapse navbar-collapse position-relative" id="navbarNav">
+      <ul class="navbar-nav gap-4 position-absolute end-0">
+        <li type="button" class="btn btn-outline-warning mbtn-sm nav-item">
+          <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+        </li>
+        <li type="button" class="btn btn-outline-warning btn-sm nav-item">
+          <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+        </li>
+        <li type="button" class="btn btn-outline-warning btn-sm nav-item">
+          <a class="nav-link active" aria-current="page" href="#contact-me">Contact me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>    
+</header>
+<br>
 
 <!-- Initial photo and name -->
-    <section>
-        <div><img class="hero-image" src="Images/ToastCom.jpg" alt="Mayra">
-            <div class="hero-text">
-                <h1 id="top">Mayra Rivas'<br>Portfolio</h1>
-                
-            </div>
-        </div>
+    <section class="position-relative">
+      <div class="position-absolute  top-100 start-50 translate-middle">
+        <img src="Images/ToastCom.jpg" class="img-thumbnail" alt="photo">
+      </div>           
     </section>
+
 <!-- Personal information -->
     <main>
-        <section class="About-Me">
-            <h1 id="about-me">About Me</h1>
-            <p> My name is Mayra Rivas. I am currently a student at UWA to become a Full-Stack Web Developer.
-                I am passionate about helping people to achieve their goals and I have found in web development the
-                tools to continue doing that.
-
-                  I have a diverse range of skills that enable me to work effectively and productively in different
-                environments. Being a web developer allows me to use my creativity and skills to design
-                powerful and beautiful websites.
-
-                  In this Portfolio you will find the tools I have created during my learning journey of Web development.
-                I will continue to add all the projects I create to this portfolio.</p>
+      <h1 class="display-1 text-warning mt-50"><strong>Mayra Rivas</strong></h1>
+        <section>
+          <h1 class="display-5 pt-5">About Me</h1>
+            
+            <p class="lh-lg fs-5 mx-4">My name is Mayra Rivas. I am currently a student at UWA to become a Full-Stack Web Developer.
+            I am passionate about helping people to achieve their goals and I have found in web development the
+            tools to continue doing that.
+            <br>
+              I have a diverse range of skills that enable me to work effectively and productively in different
+            environments. Being a web developer allows me to use my creativity and skills to design
+            powerful and beautiful websites.
+            </p>
         </section>
+
         
 <!-- Record and images of previous work -->
-<div class=" grid row row-cols-1 row-cols-md-2 g-4">
-    <h1>WORK</h1>
-    <div class="col">
-      <div class="card">
-        <img src="Images/Horiseon3.png" alt="web-page1" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Horiseon</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="Images\SecurePwGenerator3.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Password Generator</h5>
-         
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="Images\WorkDayOrganizer2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Work Day Scheduler</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="Images/CometWatch2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Project 1: Comet Watch</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class="col">
-    <div class="card">
-      <img src="Images/READMEGenerator2.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">README Generator</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  </div>
-  <div class="col">
-  <div class="card">
-    <img src="Images/TeamProfile1.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Team Profile Generator</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-  </div>
-</div>
-<div class="col">
-  <div class="card">
-    <img src="Images/MyNotesApp1.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">My Notes App</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-  </div>
-</div><div class="col">
-  <div class="card">
-    <img src="Images/EcommerceImage1.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">MR-ECommerce</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-  </div>
-</div>
-</div><div class="col">
-  <div class="card">
-    <img src="Images/Doggy Day Care1.png" class="card-img-top" alt="Website screenshot">
-    <div class="card-body">
-      <h5 class="card-title">Project 2: Doggy Day Care</h5>
-     <!-- <a href="https://doggy-day-care-gula.herokuapp.com/"></a> -->
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-  </div>
-</div>
+<div>
+  <h1 id="projects" class="display-5 pt-5">Projects</h1>
+  <p class="lh-lg fs-5 mx-4"> In this Portfolio you will find the tools I have created during my learning journey of Web development.
+    I will continue to add all the projects I create to this portfolio.</p>
 </div>
 
+<div class="card p-1 rounded mx-auto d-block" style="width: 50rem">
+  <img src="Images/Horiseon3.png" class="card-img-top" alt="website">
+  <div class="card-body">
+    <h4 class="text-secondary text-center">
+    <br><a href="https://mayrarivaslara.github.io/HoriseonMINIProject/" class="link-secondary">HORISEON Project</a></h4>
+  </div>
+</div>
+<br>
+
+
+<section>
+  <div class="container">
+    <div class="row d-flex justify-content-between">
+      <div class="col order-first">
+        <img src="Images\SecurePwGenerator3.png" class="card-img-top" alt="webpage">
+        <a href="https://mayrarivaslara.github.io/Secure-Password-Generator/" class="link-light text-center"><h5>Password Generator</h5></a>
+      </div>
+      <div class="col">
+        <img src="Images\WorkDayOrganizer2.png" class="card-img-top" alt="Scheduler">
+        <a href="https://mayrarivaslara.github.io/WorkDayOrganizer/" class="link-light text-center"><h5>Work Day Scheduler</h5></a>
+      </div>
+      <div class="col order-last">
+        <img src="Images/CometWatch2.png" class="card-img-top" alt="Comet">
+        <a href="https://wratten.github.io/Comet-Watch/" class="link-light text-center"><h5>Comet Watch</h5></a>
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+<section>
+  <div class="container">
+    <div class="row d-flex justify-content-between">
+      <div class="col order-first">
+        <img src="Images/READMEGenerator2.png" class="card-img-top" alt="readme_generator">
+        <a href="https://github.com/MayraRivasLara/ReadMe-Generator" class="link-light text-center"><h5>README Generator</h5></a>
+      </div>
+      <div class="col">
+        <img src="Images/TeamProfile1.png" class="card-img-top" alt="profile_generator">
+        <a href="https://github.com/MayraRivasLara/SWTeamProfileGenerator-" class="link-light text-center"><h5>Team Profile Generator</h5></a>
+      </div>
+      <div class="col order-last">
+        <img src="Images/MyNotesApp1.png" class="card-img-top" alt="Comet">
+        <a href="https://frozen-eyrie-42428.herokuapp.com/" class="link-light text-center"><h5>My Notes Application</h5></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>   
+  <div class="container">
+    <div class="row d-flex justify-content-between">
+      <div class="col order-first">
+        <img src="Images/EcommerceImage1.png" class="card-img-top" alt="ecommerce_page">
+        <a href="https://github.com/MayraRivasLara/MR-ECommerce" class="link-light text-center"><h5>MR-ECommerce</h5></a>
+      </div>
+      <div class="col">
+        <img src="Images/Doggy Day Care1.png" class="card-img-top" alt="website_pic">
+        <a href="https://doggy-day-care-gula.herokuapp.com/" class="link-light text-center"><h5>Doggy Day Care</h5></a>
+      </div>
+      <div class="col order-last">
+        <img src="/Images/coming_soon2.png" class="img-fluid" alt="Comet">
+        <a href="#" class="link-light text-center"><h5>Next Project will be here...</h5></a>
+      </div>
+    </div>
+  </div> 
+</section>
+     
          <!-- <section>
              <h1 id="Work">Work</h1>
             <ul>
@@ -174,16 +168,39 @@
            </ul>
         </section> -->
     </main>
+<bk>
 
+</bk>
 <!-- footer with contact me links -->
-    <footer class="Contact-Me">
-        <h1 id="contact-me">Contact Me</h1>
-        <p>
-            <a href="mailto:mayra_rivas77@live.com">Email</a>
-            <a href="https://github.com/MayraRivasLara">GitHub</a>
-            <a href="https://www.linkedin.com/in/mayra-rivas-lara-696032226/">Linkedin</a>
-            <a href="https://twitter.com/MayraRivasLara">Twitter</a>
-        </p>
-    </footer>
+<footer>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand text-warning"><strong><h1>Contact Me</h1></strong></a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav gap-5 d-flex justify-content-end">
+       <li>
+          <a href="mailto:mayra_rivas77@live.com"><i class="fa-solid fa-at fa-2xl"></i></a>
+        </li>
+        <li>
+          <a href="https://github.com/MayraRivasLara"><i class="fa-brands fa-github fa-2xl"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/mayra-rivas-lara-696032226/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/MayraRivasLara"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>    
+</footer>
+
+   <script src="https://kit.fontawesome.com/83388edbf3.js" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
+   integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
+   integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
 </body>
 
